@@ -1,0 +1,31 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "common/variables";
+@import "common/global";
+
+// icons dropdown
+@import "components/icons-dropdown";
+
+// manage role user dropdown
+@import "components/manage-role-dropdown";
+
+##{$plugin_slug}-admin {
+  // Components
+  @import "components/forms";
+  @import "components/buttons";
+  @import "components/checkboxes";
+  @import "components/color-pickers";
+  @import "components/modal";
+  @import "components/tooltips";
+  @import "components/right-panel";
+  @import "components/bulletin-type";
+  @import "components/tabs";
+
+  // Pages
+  @import "pages/welcome";
+  @import "pages/bulletins";
+  @import "pages/layout";
+  @import "pages/settings";
+}

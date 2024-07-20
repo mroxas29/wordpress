@@ -1,0 +1,45 @@
+.toggle-switch {
+  input[type="checkbox"] {
+    @apply cursor-pointer border-none relative shadow-none bg-transparent;
+
+    width: 45px;
+    height: 26px;
+
+    &::before {
+      @apply block absolute border border-blue-100 duration-300;
+
+      content: '';
+      border-radius: 20px;
+      width: 45px;
+      height: 26px;
+      margin: 0;
+    }
+
+    &::after {
+      @apply block absolute bg-blue-100 duration-300 rounded-full;
+
+      content: '';
+      width: 18px;
+      height: 18px;
+      top: 50%;
+      left: 5px;
+      transform: translateY(-50%);
+    }
+
+    &:checked {
+      &::before {
+        @apply bg-blue-100;
+      }
+
+      &::after {
+        @apply bg-white-100;
+
+        left: 22px;
+      }
+    }
+
+    &:focus {
+      @apply shadow-none outline-none;
+    }
+  }
+}

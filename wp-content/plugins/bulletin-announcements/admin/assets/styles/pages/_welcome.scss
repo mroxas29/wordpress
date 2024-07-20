@@ -1,0 +1,38 @@
+.#{$plugin_slug}-admin-welcome {
+  .container {
+    @screen lg {
+      max-width: 1024px;
+    }
+
+    @screen xl {
+      max-width: 1024px;
+    }
+  }
+
+  .box-container {
+    @apply relative border-2 border-blue-100 flex flex-col justify-center items-center text-center;
+  }
+
+  .logo-wrapper {
+    @apply px-10 bg-white-100 absolute top-0;
+
+    left: 50%;
+    transform: translate(-50% ,-50%);
+
+    img {
+      width: 300px;
+    }
+  }
+
+  .bullet-item {
+    @apply relative pl-8;
+
+    &::before {
+      @apply w-4 h-4 bg-orange-100 absolute left-0;
+
+      content: '';
+      top: 8px;
+      transform: rotate(45deg);
+    }
+  }
+}

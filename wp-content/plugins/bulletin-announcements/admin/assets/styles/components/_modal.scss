@@ -1,0 +1,35 @@
+.#{$plugin_slug}-admin-common-layout {
+  .modal{
+    @apply text-left w-full h-full top-0 left-0 flex items-center justify-end;
+
+    .modal-overlay{
+      @apply absolute w-full h-full bg-black opacity-25 top-0 left-0 cursor-pointer;
+    }
+
+    .tooltip-overlay{
+      @apply fixed opacity-0 cursor-default;
+    }
+
+    .#{$plugin_slug}-support-markdown{
+      @apply absolute bg-white-100 rounded-sm shadow-lg z-10;
+
+      width: 100%;
+      top: 30px;
+
+      .line-indicator{
+        @apply h-6 border absolute;
+
+        top: -26px;
+        right: 60px;
+      }
+
+      @screen lg{
+        width: 400px;
+      }
+
+      @screen xl{
+        width: 600px;
+      }
+    }
+  }
+}

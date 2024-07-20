@@ -1,0 +1,101 @@
+button:focus {
+  @apply outline-none;
+}
+
+.btn {
+  @apply inline-flex items-center justify-between font-playfair font-bold border-t-2 border-r-2 border-b-2 border-l-12 border-orange-100 text-blue-100 px-8 cursor-pointer no-underline;
+
+  width: 260px;
+  height: 56px;
+
+  @screen lg {
+    @apply h-20;
+  }
+
+  &.btn-smaller {
+    width: 246px;
+    height: 56px;
+  }
+
+  &:hover {
+    @apply no-underline;
+  }
+}
+
+.btn-round {
+  @apply inline-flex items-center justify-center rounded-full border-2 border-orange-100 bg-orange-100 bg-opacity-20 text-orange-100 text-base font-bold no-underline px-8;
+
+  height: 60px;
+
+  &:hover {
+    @apply no-underline bg-opacity-100 text-white-100;
+
+    img {
+      filter: brightness(0) invert(1);
+    }
+  }
+}
+
+.btn-fill {
+  @apply inline-flex items-center justify-between font-playfair font-bold border-l-12 border-orange-200 bg-orange-100 text-white-200 px-8 cursor-pointer no-underline;
+
+  width: 260px;
+  height: 56px;
+
+  @screen lg {
+    @apply h-20;
+  }
+
+  &.btn-smaller {
+    width: 246px;
+    height: 56px;
+  }
+
+  &:hover {
+    @apply no-underline bg-orange-200;
+  }
+}
+
+.btn-no-underline {
+  @apply no-underline;
+}
+
+.btn-default {
+  @apply bg-gray-200 cursor-pointer;
+
+  padding: 1px 7px 2px;
+  border-width: 1px;
+  border-color: #d8d8d8 #d1d1d1 #bababa;
+
+  &.btn-smaller {
+    width: 246px;
+    height: 56px;
+  }
+}
+
+.dismiss-button {
+  @apply absolute z-10 cursor-pointer;
+
+  width: 16px;
+  height: 16px;
+  top: 8px;
+  right: 8px;
+
+  &::before {
+    @apply absolute rounded-full bg-black block rotate-45;
+
+    content: '';
+    width: 16px;
+    height: 2px;
+    top: 6px;
+  }
+
+  &::after {
+    @apply absolute rounded-full bg-black block -rotate-45;
+
+    content: '';
+    width: 16px;
+    height: 2px;
+    top: 6px;
+  }
+}

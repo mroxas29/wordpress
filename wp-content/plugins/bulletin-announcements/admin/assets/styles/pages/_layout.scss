@@ -1,0 +1,56 @@
+.#{$plugin_slug}-admin-common-layout {
+  @apply mt-6;
+
+  .content {
+    @apply flex flex-col items-start;
+
+    @screen md{
+      @apply flex-row;
+    }
+  }
+
+  .left-content {
+    @apply w-full flex-grow pr-0;
+
+    @screen md{
+      @apply pr-6;
+    }
+  }
+
+  .right-content {
+    @apply w-full flex-shrink-0 mt-5;
+
+    @screen md {
+      @apply mt-0;
+
+      width: 18rem;
+    }
+
+    .btn,
+    .btn-fill {
+      @apply max-w-full w-full px-4;
+    }
+  }
+
+  .box-container {
+    @apply bg-white-200;
+  }
+
+  .heading {
+    @apply text-orange-100 text-base font-bold;
+  }
+
+  .tab-heading {
+    @apply font-playfair font-bold text-xl;
+  }
+
+  .pro-pill {
+    @apply inline-flex items-center justify-center bg-orange-100 text-white-100 text-xs font-bold ml-2 px-2 uppercase rounded-lg;
+
+    height: 26px;
+  }
+
+  .pro-disabled {
+    @apply opacity-50 pointer-events-none;
+  }
+}

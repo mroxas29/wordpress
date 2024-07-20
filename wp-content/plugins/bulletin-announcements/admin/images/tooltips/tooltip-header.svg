@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="307px" height="180px" viewBox="0 0 307 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>example</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="90" height="92" rx="2"></rect>
+    </defs>
+    <g id="plugin-NEW-designs-oct-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Message-block-final" transform="translate(-93.000000, -366.000000)">
+            <g id="example" transform="translate(93.000000, 366.000000)">
+                <polygon id="Rectangle" fill="#F77355" points="0 0 307 0 307 28 17.212414 28 0 28"></polygon>
+                <g id="Group-21" opacity="0.503166562" transform="translate(22.000000, 57.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <rect stroke="#324760" stroke-width="2" x="1" y="1" width="88" height="90" rx="2"></rect>
+                    <g mask="url(#mask-2)" id="Path-4" stroke="#324760" stroke-width="2">
+                        <line x1="0" y1="0" x2="90" y2="92"></line>
+                        <line x1="0" y1="0" x2="90" y2="92" transform="translate(45.000000, 46.000000) scale(-1, 1) translate(-45.000000, -46.000000) "></line>
+                    </g>
+                </g>
+                <rect id="Rectangle" fill="#324760" opacity="0.503166562" x="127" y="78" width="154" height="8" rx="2"></rect>
+                <rect id="Rectangle" fill="#324760" opacity="0.503166562" x="127" y="119" width="154" height="8" rx="2"></rect>
+                <rect id="Rectangle" fill="#324760" opacity="0.503166562" x="127" y="90" width="154" height="8" rx="2"></rect>
+                <rect id="Rectangle" fill="#324760" opacity="0.503166562" x="127" y="104" width="154" height="9" rx="2"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="51" y="10" width="171" height="8" rx="2"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="239" y="7" width="40" height="14" rx="2"></rect>
+                <path d="M31.8,16.2 L31.8,20.2 C31.8,20.6418278 31.4418278,21 31,21 L28.6,21 L26.2,16.2 C25.3163444,16.2 24.6,15.4836556 24.6,14.6 C23.7163444,14.6 23,13.8836556 23,13 L23,11.4 C23,10.52 23.72,9.8 24.6,9.8 C24.6,8.92 25.32,8.2 26.2,8.2 L32.272,8.2 L35.472,5 L37.4,5 C38.2836556,5 39,5.7163444 39,6.6 L39,17.8 C39,18.6836556 38.2836556,19.4 37.4,19.4 L35.472,19.4 L32.272,16.2 L31.8,16.2 Z M31.8,14.6 L32.928,14.6 L36.128,17.8 L37.4,17.8 L37.4,6.6 L36.128,6.6 L32.928,9.8 L31.8,9.8 L31.8,14.6 Z M30.2,14.6 L30.2,9.8 L26.2,9.8 L26.2,11.4 L24.6,11.4 L24.6,13 L26.2,13 L26.2,14.6 L30.2,14.6 Z M30.2,16.2 L27.992,16.2 L29.592,19.4 L30.2,19.4 L30.2,16.2 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="306px" height="180px" viewBox="0 0 306 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>example</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="90" height="92.5714286" rx="2"></rect>
+    </defs>
+    <g id="plugin-NEW-designs-oct-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Message-block-final" transform="translate(-1093.000000, -365.000000)">
+            <g id="example" transform="translate(1093.000000, 365.000000)">
+                <rect id="Rectangle" fill="#F77355" x="0" y="152.228571" width="306" height="27.7714286"></rect>
+                <g id="Group-21" opacity="0.515197754" transform="translate(21.000000, 23.657143)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <rect stroke="#324760" stroke-width="2" x="1" y="1" width="88" height="90.5714286" rx="2"></rect>
+                    <g opacity="0.932074411" mask="url(#mask-2)" id="Path-4" stroke="#324760" stroke-width="2">
+                        <line x1="0" y1="0" x2="90" y2="92.5714286"></line>
+                        <line x1="0" y1="0" x2="90" y2="92.5714286" transform="translate(45.000000, 46.285714) scale(-1, 1) translate(-45.000000, -46.285714) "></line>
+                    </g>
+                </g>
+                <rect id="Rectangle" fill-opacity="0.56" fill="#324760" x="127" y="44.2285714" width="153" height="8.22857143" rx="2"></rect>
+                <rect id="Rectangle" fill-opacity="0.56" fill="#324760" x="127" y="86.4" width="153" height="8.22857143" rx="2"></rect>
+                <rect id="Rectangle" fill-opacity="0.56" fill="#324760" x="127" y="57.6" width="153" height="8.22857143" rx="2"></rect>
+                <rect id="Rectangle" fill-opacity="0.56" fill="#324760" x="127" y="72" width="153" height="9.25714286" rx="2"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="50" y="162.514286" width="172" height="7.2" rx="2"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="238" y="158.4" width="41" height="14.4" rx="2"></rect>
+                <path d="M31.8,168.891429 L31.8,173.005714 C31.8,173.460166 31.4418278,173.828571 31,173.828571 L28.6,173.828571 L26.2,168.891429 C25.3163444,168.891429 24.6,168.154617 24.6,167.245714 C23.7163444,167.245714 23,166.508903 23,165.6 L23,163.954286 C23,163.049143 23.72,162.308571 24.6,162.308571 C24.6,161.403429 25.32,160.662857 26.2,160.662857 L32.272,160.662857 L35.472,157.371429 L37.4,157.371429 C38.2836556,157.371429 39,158.10824 39,159.017143 L39,170.537143 C39,171.446046 38.2836556,172.182857 37.4,172.182857 L35.472,172.182857 L32.272,168.891429 L31.8,168.891429 Z M31.8,167.245714 L32.928,167.245714 L36.128,170.537143 L37.4,170.537143 L37.4,159.017143 L36.128,159.017143 L32.928,162.308571 L31.8,162.308571 L31.8,167.245714 Z M30.2,167.245714 L30.2,162.308571 L26.2,162.308571 L26.2,163.954286 L24.6,163.954286 L24.6,165.6 L26.2,165.6 L26.2,167.245714 L30.2,167.245714 Z M30.2,168.891429 L27.992,168.891429 L29.592,172.182857 L30.2,172.182857 L30.2,168.891429 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+.right-content-panel-wrapper {
+  @apply mt-8;
+
+  .btn-text {
+    @apply text-blue-100 no-underline;
+
+    &:hover {
+      @apply text-orange-100;
+
+      svg {
+        * {
+          fill: #f77355;
+        }
+      }
+    }
+  }
+
+  .news-content {
+    @apply mb-8 p-4 border-2 border-solid border-orange-100;
+  }
+}

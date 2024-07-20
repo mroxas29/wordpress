@@ -1,0 +1,192 @@
+@import "main";
+@import "common/variables";
+
+##{$plugin_slug}-admin {
+  .#{$plugin_slug}-admin-common-layout {
+
+    .upgrade-panel-wrapper {
+      @apply p-4;
+
+      @media (min-width: $screen-xl-min) {
+        @apply p-5;
+      }
+
+      @media (min-width: $screen-2xl-min) {
+        @apply p-8;
+      }
+
+      @media (min-width: $screen-3xl-min) {
+        @apply p-12;
+      }
+
+      .box-heading {
+        @apply px-1 bg-white-100 absolute top-0;
+  
+        left: 50%;
+        transform: translate(-50% ,-50%);
+  
+        @media (min-width: $screen-2xs-min) {
+          @apply px-1;
+        }
+  
+        @media (min-width: $screen-xs-min) {
+          @apply px-2;
+        }
+  
+        @media (min-width: $screen-sm-min) {
+          @apply px-3;
+        }
+  
+        @media (min-width: $screen-ms-min) {
+          @apply px-4;
+        }
+  
+        @media (min-width: $screen-md-min) {
+          @apply px-5;
+        }
+  
+        @media (min-width: $screen-lg-min) {
+          @apply px-6;
+        }
+  
+        @media (min-width: $screen-2xl-min) {
+          @apply px-10;
+        }
+  
+        h2 {
+          font-size: 18px;
+    
+          @media (min-width: $screen-sm-min) {
+            font-size: 20px;
+          }
+    
+          @media (min-width: $screen-ms-min) {
+            font-size: 22px;
+          }
+    
+          @media (min-width: $screen-md-min) {
+            font-size: 25px;
+          }
+    
+          @media (min-width: $screen-lg-min) {
+            font-size: 20px;
+          }
+  
+          @media (min-width: $screen-2xl-min) {
+            font-size: 31px;
+          }
+  
+          @media (min-width: $screen-3xl-min) {
+            font-size: 2.125rem;
+          }
+        }
+      }
+
+      .bullet-item {
+        @apply relative pl-8;
+  
+        @media (min-width: $screen-lg-min) {
+          @apply pl-6;
+        }
+
+        @media (min-width: $screen-xl-min) {
+          padding-left: 20px;
+        }
+
+        @media (min-width: $screen-3xl-min) {
+          @apply pl-8;
+        }
+  
+        &::before {
+          @apply w-2 h-2 bg-orange-100 absolute left-0;
+
+          content: '';
+          top: 8px;
+          transform: rotate(45deg);
+  
+          @media (min-width: $screen-sm-min) {
+            width: 10px;
+            height: 10px;
+          }
+
+          @media (min-width: $screen-ms-min) {
+            width: 12px;
+            height: 12px;
+          }
+
+          @media (min-width: $screen-md-min) {
+            @apply w-4 h-4;
+          }
+  
+          @media (min-width: $screen-lg-min) {
+            @apply w-2 h-2;
+
+            top: 4px;
+          }
+
+          @media (min-width: $screen-2xl-min) {
+            width: 10px;
+            height: 10px;
+          }
+
+          @media (min-width: $screen-3xl-min) {
+            width: 11px;
+            height: 11px;
+          }
+
+          @media (min-width: $screen-4xl-min) {
+            width: 13px;
+            height: 13px;
+            top: 6px;
+          }
+        }
+  
+        h4 {
+          font-size: 16px;
+  
+          @media (min-width: $screen-sm-min) {
+            font-size: 19px;
+          }
+    
+          @media (min-width: $screen-ms-min) {
+            font-size: 22px;
+          }
+    
+          @media (min-width: $screen-md-min) {
+            font-size: 24px;
+          }
+    
+          @media (min-width: $screen-lg-min) {
+            font-size: 12px;
+          }
+
+          @media (min-width: $screen-2xl-min) {
+            font-size: 14.5px;
+          }
+  
+          @media (min-width: $screen-3xl-min) {
+            font-size: 15px;
+          }
+
+          @media (min-width: $screen-4xl-min) {
+            font-size: 19px;
+          }
+        }
+      }
+
+      .features-wrapper {
+        @apply justify-start mx-0;
+
+        @media (min-width: $screen-lg-min) {
+          @apply justify-between mx-0;
+        }
+  
+        .features-items {
+          @media (min-width: $screen-lg-min) {
+            @apply px-0;
+          }
+        }
+      }
+    }
+  }
+}

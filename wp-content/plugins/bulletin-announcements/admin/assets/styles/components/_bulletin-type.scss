@@ -1,0 +1,50 @@
+.radio-group-wrapper {
+  .radio-group {
+    max-width: 200px;
+  }
+
+  .bulletin-type-wrapper {
+    width: 100%;
+
+    input {
+      @apply w-0 h-0 opacity-0 pointer-events-none block;
+    }
+
+    .type-name {
+      @apply text-orange-100 text-center text-base font-bold mb-4;
+    }
+
+    .bulletin-type-image {
+      @apply relative;
+    }
+
+    .border {
+      @apply absolute w-full h-full border-2 border-blue-100;
+
+      &:hover {
+        @apply border-4;
+      }
+    }
+
+    .checked-icon {
+      @apply hidden;
+    }
+
+    input:checked + label {
+      .type-name {
+        @apply text-green-100;
+      }
+
+      .border {
+        @apply border-4 border-green-100;
+      }
+
+      .checked-icon {
+        @apply block absolute;
+
+        top: 3px;
+        right: 3px;
+      }
+    }
+  }
+}

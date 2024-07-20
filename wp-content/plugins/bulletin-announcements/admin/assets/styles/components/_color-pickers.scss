@@ -1,0 +1,18 @@
+.wp-picker-container {
+  @apply relative;
+
+  .wp-picker-input-wrap {
+    input {
+      height: 30px;
+      width: 100px;
+    }
+
+    .wp-picker-clear {
+      @apply w-auto;
+    }
+  }
+
+  .wp-picker-holder {
+    @apply z-10 absolute pointer-events-auto;
+  }
+}

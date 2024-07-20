@@ -1,0 +1,9 @@
+#select2-bulletinwp-user-role-results {
+  li.locked-tag {
+    @apply pointer-events-none text-gray-300;
+
+    &.select2-results__option--highlighted {
+      @apply bg-gray-400;
+    }
+  }
+}

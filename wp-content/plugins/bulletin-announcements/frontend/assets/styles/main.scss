@@ -1,0 +1,333 @@
+@import "common/variables";
+
+.#{$plugin_slug}-bulletins {
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  box-sizing: border-box;
+
+  // Item
+  .#{$plugin_slug}-bulletin-item {
+    padding: 0 12px;
+    position: relative;
+    box-shadow: 0 10px 15px -3px rgba(#000, 0.1), 0 4px 6px -2px rgba(#000, 0.05);
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.3s ease;
+    margin: 0 auto;
+    z-index: 9999;
+
+    @media (min-width: $screen-sm-min) {
+      padding: 12px 24px;
+    }
+  }
+
+  .#{$plugin_slug}-main-container {
+    margin: 0 auto;
+  }
+
+  .#{$plugin_slug}-top-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+
+    @media (min-width: $screen-sm-min) {
+      margin-bottom: 0;
+    }
+  }
+
+  // Left container
+  .#{$plugin_slug}-left-container {
+    position: relative;
+    z-index: 1;
+    flex-shrink: 0;
+  }
+
+  // Center container
+  .#{$plugin_slug}-center-container {
+    width: 0;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  // right container
+  .#{$plugin_slug}-right-container {
+    position: relative;
+    z-index: 1;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .#{$plugin_slug}-bulletin-content-wrapper {
+    width: 100%;
+
+    p {
+      color: currentColor;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+
+    a {
+      text-decoration: underline;
+      color: currentColor;
+      border: none;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .#{$plugin_slug}-bulletin-content {
+    display: none;
+
+    @media (min-width: $screen-sm-min) {
+      display: block;
+    }
+  }
+
+  .#{$plugin_slug}-bulletin-mobile-content {
+    display: block;
+
+    @media (min-width: $screen-sm-min) {
+      display: none;
+    }
+  }
+
+  .#{$plugin_slug}-bulletin-powered-by-label {
+    background-color: #fff;
+    border: 1px solid #d8d8d8;
+    color: #bdbdbd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    padding: 2px 5px;
+    position: absolute;
+    left: 10px;
+    text-decoration: none;
+    display: none;
+
+    a {
+      text-decoration: none;
+      color: #f77355;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    @media (min-width: $screen-sm-min) {
+      display: block;
+    }
+  }
+
+  .#{$plugin_slug}-bulletin-admin-edit-link {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    padding: 2px 5px;
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+  }
+
+  code {
+    color: currentColor;
+    background-color: rgba(#000 , 0.3);
+    padding: .3em;
+    border-radius: 5px;
+  }
+}
+
+// PLACEMENT CLASSES
+// base init
+.#{$plugin_slug}-bulletins.#{$plugin_slug}-init {
+  .#{$plugin_slug}-bulletin-item  {
+    pointer-events: initial;
+    opacity: 1;
+  }
+}
+
+// top
+.#{$plugin_slug}-bulletins.#{$plugin_slug}-placement-top {
+  position: relative;
+  width: 100%;
+  max-width: none;
+
+  .#{$plugin_slug}-bulletin-powered-by-label {
+    top: 100%;
+    z-index: 2;
+  }
+
+  .#{$plugin_slug}-bulletin-admin-edit-link {
+    top: 100%;
+    right: 0;
+    z-index: 2;
+  }
+
+  .#{$plugin_slug}-bulletin-item {
+    box-shadow: none;
+  }
+}
+
+// top -- fixed
+.#{$plugin_slug}-bulletins.#{$plugin_slug}-placement-top.#{$plugin_slug}-top-fixed {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+// sticky footer
+.#{$plugin_slug}-bulletins.#{$plugin_slug}-placement-sticky-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+
+  .#{$plugin_slug}-bulletin-powered-by-label {
+    bottom: 100%;
+    z-index: 2;
+  }
+
+  .#{$plugin_slug}-bulletin-admin-edit-link {
+    right: 0;
+    bottom: 100%;
+  }
+}
+
+// float bottom
+.#{$plugin_slug}-bulletins.#{$plugin_slug}-placement-float-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0 8px 8px;
+  z-index: 999;
+
+  @media (min-width: $screen-sm-min) {
+    padding: 0 20px 20px;
+    pointer-events: none;
+  }
+
+  .#{$plugin_slug}-bulletin-item {
+    padding: 12px;
+    border-radius: 8px;
+    transform-origin: center bottom;
+    transform: scale(0.9);
+  }
+
+  .#{$plugin_slug}-bulletin-powered-by-label {
+    bottom: 100%;
+  }
+
+  .#{$plugin_slug}-bulletin-admin-edit-link {
+    bottom: 100%;
+  }
+}
+
+// float bottom - init
+.#{$plugin_slug}-bulletins.#{$plugin_slug}-placement-float-bottom.#{$plugin_slug}-init {
+  .#{$plugin_slug}-bulletin-item {
+    transform: scale(1);
+  }
+}
+
+// corner
+.#{$plugin_slug}-bulletins.#{$plugin_slug}-placement-corner {
+  position: fixed;
+  width: 100%;
+  padding: 8px 8px;
+  z-index: 999;
+
+  @media (min-width: $screen-sm-min) {
+    padding: 20px 20px;
+    pointer-events: none;
+  }
+
+  .#{$plugin_slug}-bulletin-item {
+    padding: 12px;
+    border-radius: 8px;
+    transform-origin: center bottom;
+    transform: scale(0.9);
+    margin: 0;
+  }
+}
+
+// corner -init
+.#{$plugin_slug}-bulletins.#{$plugin_slug}-placement-corner.#{$plugin_slug}-init {
+  .#{$plugin_slug}-bulletin-item {
+    transform: scale(1);
+  }
+}
+
+// PLACEMENT CORNER - Style
+// top left
+.#{$plugin_slug}-bulletins.#{$plugin_slug}-corner-top-left {
+  top: 0;
+  left: 0;
+
+  .#{$plugin_slug}-bulletin-admin-edit-link {
+    top: 100%;
+    right: 0;
+    z-index: 2;
+  }
+}
+
+// top right
+.#{$plugin_slug}-bulletins.#{$plugin_slug}-corner-top-right {
+  top: 0;
+  right: 0;
+
+  .#{$plugin_slug}-bulletin-item {
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .#{$plugin_slug}-bulletin-admin-edit-link {
+    top: 100%;
+    right: 0;
+    z-index: 2;
+  }
+}
+
+// bottom left
+.#{$plugin_slug}-bulletins.#{$plugin_slug}-corner-bottom-left {
+  bottom: 0;
+  left: 0;
+
+  .#{$plugin_slug}-bulletin-admin-edit-link {
+    bottom: 100%;
+  }
+}
+
+// bottom right
+.#{$plugin_slug}-bulletins.#{$plugin_slug}-corner-bottom-right {
+  bottom: 0;
+  right: 0;
+
+  .#{$plugin_slug}-bulletin-item {
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .#{$plugin_slug}-bulletin-admin-edit-link {
+    bottom: 100%;
+  }
+}
+
+// hide image in mobile screen
+.#{$plugin_slug}-bulletin-image-wrapper {
+  display: block;
+
+  @media (max-width: $screen-sm-min) {
+    display: none;
+  }
+}

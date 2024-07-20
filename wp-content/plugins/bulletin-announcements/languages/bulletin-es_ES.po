@@ -1,0 +1,1108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-01-22 11:18+0800\n"
+"PO-Revision-Date: 2021-02-07 10:33+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html;esc_html__;esc_html_e\n"
+"Last-Translator: \n"
+"Language: es\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: modules\n"
+"X-Poedit-SearchPathExcluded-1: languages\n"
+"X-Poedit-SearchPathExcluded-2: customizer\n"
+"X-Poedit-SearchPathExcluded-3: vendor\n"
+"X-Poedit-SearchPathExcluded-4: node_modules\n"
+"X-Poedit-SearchPathExcluded-5: lib\n"
+"X-Poedit-SearchPathExcluded-6: classes\n"
+"X-Poedit-SearchPathExcluded-7: core\n"
+"X-Poedit-SearchPathExcluded-8: admin/build\n"
+"X-Poedit-SearchPathExcluded-9: admin/node_modules\n"
+"X-Poedit-SearchPathExcluded-10: admin/assets\n"
+"X-Poedit-SearchPathExcluded-11: frontend/build\n"
+"X-Poedit-SearchPathExcluded-12: frontend/node_modules\n"
+"X-Poedit-SearchPathExcluded-13: frontend/assets\n"
+"X-Poedit-SearchPathExcluded-14: .\n"
+
+#: admin/views/common/bulletin-form.php:90
+msgid "Announcement"
+msgstr "Anuncio"
+
+#: admin/views/common/bulletin-form.php:94
+msgid "Book"
+msgstr "Libro"
+
+#: admin/views/common/bulletin-form.php:98
+msgid "Briefcase"
+msgstr "Maletín"
+
+#: admin/views/common/bulletin-form.php:102
+msgid "Calendar"
+msgstr "Calendario"
+
+#: admin/views/common/bulletin-form.php:106
+msgid "Chat"
+msgstr "Chat"
+
+#: admin/views/common/bulletin-form.php:110
+msgid "Check circle"
+msgstr "Círculo de verificación"
+
+#: admin/views/common/bulletin-form.php:114
+msgid "Clip"
+msgstr "Pinza"
+
+#: admin/views/common/bulletin-form.php:118
+msgid "Clock"
+msgstr "Reloj"
+
+#: admin/views/common/bulletin-form.php:122
+msgid "Emotion happy"
+msgstr "Emoción feliz"
+
+#: admin/views/common/bulletin-form.php:126
+msgid "Emotion sad"
+msgstr "Emoción triste"
+
+#: admin/views/common/bulletin-form.php:130
+msgid "Exclamation"
+msgstr "Exclamación"
+
+#: admin/views/common/bulletin-form.php:134
+msgid "Heart"
+msgstr "Corazón"
+
+#: admin/views/common/bulletin-form.php:138
+msgid "Help"
+msgstr "Ayuda"
+
+#: admin/views/common/bulletin-form.php:142
+msgid "Information"
+msgstr "Información"
+
+#: admin/views/common/bulletin-form.php:146
+msgid "Key"
+msgstr "Clave"
+
+#: admin/views/common/bulletin-form.php:150
+msgid "Location"
+msgstr "Ubicación"
+
+#: admin/views/common/bulletin-form.php:154
+msgid "Moon"
+msgstr "Luna"
+
+#: admin/views/common/bulletin-form.php:158
+msgid "Music"
+msgstr "Música"
+
+#: admin/views/common/bulletin-form.php:162
+msgid "Notification"
+msgstr "Notificación"
+
+#: admin/views/common/bulletin-form.php:166
+msgid "Rocket"
+msgstr "Rocket"
+
+#: admin/views/common/bulletin-form.php:170
+msgid "Star"
+msgstr "Estrella"
+
+#: admin/views/common/bulletin-form.php:174
+msgid "Thumb up"
+msgstr "Pulgar arriba"
+
+#: admin/views/common/bulletin-form.php:178
+msgid "Trophy"
+msgstr "Trofeo"
+
+#: admin/views/common/bulletin-form.php:189
+msgid "Title"
+msgstr "Título"
+
+#: admin/views/common/bulletin-form.php:190
+msgid "(only visible for you)"
+msgstr "(solo visible para ti)"
+
+#: admin/views/common/bulletin-form.php:198
+msgid "Add title"
+msgstr "Añadir Titulo"
+
+#: admin/views/common/bulletin-form.php:207
+msgid "Message"
+msgstr "Mensaje"
+
+#: admin/views/common/bulletin-form.php:210
+#: admin/views/common/bulletin-form.php:732
+#: admin/views/common/bulletin-form.php:775
+msgid "Tablet and up"
+msgstr "Tableta y superior"
+
+#: admin/views/common/bulletin-form.php:220
+#: admin/views/common/bulletin-form.php:741
+#: admin/views/common/bulletin-form.php:784
+msgid "Mobile only (optional)"
+msgstr "Solo móvil (opcional)"
+
+#: admin/views/common/bulletin-form.php:229
+msgid "supports markdown, emojis & links"
+msgstr "admite markdown, emojis y enlaces"
+
+#: admin/views/common/bulletin-form.php:239
+msgid "Enter this"
+msgstr "Ingresa esto"
+
+#: admin/views/common/bulletin-form.php:242
+msgid "To see this"
+msgstr "Para ver esto"
+
+#: admin/views/common/bulletin-form.php:248
+#: admin/views/common/bulletin-form.php:251
+msgid "**This is bold**"
+msgstr "**Esto está en negrita**"
+
+#: admin/views/common/bulletin-form.php:257
+#: admin/views/common/bulletin-form.php:260
+msgid "*This is italic*"
+msgstr "*Esto está en cursiva*"
+
+#: admin/views/common/bulletin-form.php:266
+#: admin/views/common/bulletin-form.php:269
+msgid "[link text](https://google.com)"
+msgstr "[texto del enlace](https://google.com)"
+
+#: admin/views/common/bulletin-form.php:284
+#: admin/views/common/bulletin-form.php:287
+msgid "paste codes `with backticks`"
+msgstr "pegar códigos `con comillas invertidas`"
+
+#: admin/views/common/bulletin-form.php:293
+msgid ":grin:"
+msgstr ":sonrisa:"
+
+#: admin/views/common/bulletin-form.php:295
+msgid "view full list of emoji commands"
+msgstr "ver lista completa de comandos de emoji"
+
+#: admin/views/common/bulletin-form.php:311
+msgid "Colors"
+msgstr "Colores"
+
+#: admin/views/common/bulletin-form.php:314 admin/views/pages/settings.php:26
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: admin/views/common/bulletin-form.php:326 admin/views/pages/settings.php:38
+msgid "Font color"
+msgstr "Color de fuente"
+
+#: admin/views/common/bulletin-form.php:339
+#: classes/class-bulletinwp-customizer.php:215
+#: classes/class-bulletinwp-bulletins-table.php:99
+msgid "Display type"
+msgstr "Tipo de visualización"
+
+#: admin/views/common/bulletin-form.php:352
+msgid "Header banner"
+msgstr "Banner de cabecera"
+
+#: admin/views/common/bulletin-form.php:370
+msgid "Floating at bottom"
+msgstr "Flotando en la parte inferior"
+
+#: admin/views/common/bulletin-form.php:388
+msgid "Sticky footer"
+msgstr "Pie de página fijo"
+
+#: admin/views/common/bulletin-form.php:400
+msgid "NOTE:"
+msgstr "NOTA:"
+
+#: admin/views/common/bulletin-form.php:400
+msgid "if this site uses a fixed header, "
+msgstr "si este sitio utiliza un encabezado fijo, "
+
+#: admin/views/common/bulletin-form.php:401
+msgid "please add the html tag in settings"
+msgstr "por favor añada la etiqueta html en ajustes"
+
+#: admin/views/common/bulletin-form.php:407
+msgid "Content max-width"
+msgstr "Ancho máximo del contenido"
+
+#: admin/views/common/bulletin-form.php:408
+msgid "(in px, leave blank for 100% width)"
+msgstr "(en píxeles, dejar en blanco para un ancho del 100%)"
+
+#: admin/views/common/bulletin-form.php:420
+msgid "Text alignment"
+msgstr "Alineación del texto"
+
+#: admin/views/common/bulletin-form.php:431
+msgid "Center"
+msgstr "Centro"
+
+#: admin/views/common/bulletin-form.php:444
+msgid "Left"
+msgstr "Izquierda"
+
+#: admin/views/common/bulletin-form.php:457
+msgid "Right"
+msgstr "Derecha"
+
+#: admin/views/common/bulletin-form.php:464
+msgid "Font Size"
+msgstr "Tamaño de fuente"
+
+#: admin/views/common/bulletin-form.php:465
+msgid "(in px, leave blank for default font-size)"
+msgstr "(en píxeles, dejar en blanco para el tamaño de fuente predeterminado)"
+
+#: admin/views/common/bulletin-form.php:469
+msgid "Desktop"
+msgstr "Escritorio"
+
+#: admin/views/common/bulletin-form.php:480
+msgid "Mobile"
+msgstr "Móvil"
+
+#: admin/views/common/bulletin-form.php:499
+msgid "Appearance"
+msgstr "Apariencia"
+
+#: admin/views/common/bulletin-form.php:506
+msgid "Call to action"
+msgstr "Llamado a la acción"
+
+#: admin/views/common/bulletin-form.php:513
+msgid "Placement"
+msgstr "Colocación"
+
+#: admin/views/common/bulletin-form.php:520
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: admin/views/common/bulletin-form.php:528
+msgid "Network options"
+msgstr "Opciones de red"
+
+#: admin/views/common/bulletin-form.php:539
+msgid "Pro"
+msgstr "Pro"
+
+#: admin/views/common/bulletin-form.php:547
+msgid "Add icon"
+msgstr "Añadir icono"
+
+#: admin/views/common/bulletin-form.php:561
+msgid "None"
+msgstr "Ninguno"
+
+#: admin/views/common/bulletin-form.php:575
+msgid "From a set"
+msgstr "De un conjunto"
+
+#: admin/views/common/bulletin-form.php:589
+msgid "Upload my own"
+msgstr "Subir el mío propio"
+
+#: admin/views/common/bulletin-form.php:598
+msgid "Select icon from set"
+msgstr "Seleccionar icono del conjunto"
+
+#: admin/views/common/bulletin-form.php:601
+msgid "Select icons"
+msgstr "Seleccionar iconos"
+
+#: admin/views/common/bulletin-form.php:618
+msgid "Upload icon"
+msgstr "Subir icono"
+
+#: admin/views/common/bulletin-form.php:623
+#: admin/views/common/bulletin-form.php:1609
+#: admin/views/common/bulletin-form.php:1662
+msgid "Upload"
+msgstr "Subir"
+
+#: admin/views/common/bulletin-form.php:638
+msgid "Fonts"
+msgstr "Fuentes"
+
+#: admin/views/common/bulletin-form.php:651
+msgid "Inherit from site"
+msgstr "Heredar del sitio"
+
+#: admin/views/common/bulletin-form.php:665
+msgid "Google fonts"
+msgstr "Fuentes de Google"
+
+#: admin/views/common/bulletin-form.php:679
+msgid "Select Google Fonts"
+msgstr "Seleccionar fuentes de Google"
+
+#: admin/views/common/bulletin-form.php:696
+msgid "This is how the content font is going to look!"
+msgstr "¡Así es como se verá la fuente del contenido!"
+
+#: admin/views/common/bulletin-form.php:705
+msgid "Add multiple messages"
+msgstr "Agregar múltiples mensajes"
+
+#: admin/views/common/bulletin-form.php:710
+#: admin/views/common/bulletin-form.php:715
+#: admin/views/common/bulletin-form.php:855
+#: admin/views/common/bulletin-form.php:860
+#: admin/views/common/bulletin-form.php:1018
+#: admin/views/common/bulletin-form.php:1023
+#: admin/views/common/bulletin-form.php:1274
+#: admin/views/common/bulletin-form.php:1279
+#: admin/views/common/bulletin-form.php:1328
+#: admin/views/common/bulletin-form.php:1332 admin/views/pages/settings.php:57
+#: admin/views/pages/settings.php:62
+msgid "Yes"
+msgstr "Sí"
+
+#: admin/views/common/bulletin-form.php:711
+#: admin/views/common/bulletin-form.php:715
+#: admin/views/common/bulletin-form.php:856
+#: admin/views/common/bulletin-form.php:860
+#: admin/views/common/bulletin-form.php:1019
+#: admin/views/common/bulletin-form.php:1023
+#: admin/views/common/bulletin-form.php:1275
+#: admin/views/common/bulletin-form.php:1279
+#: admin/views/common/bulletin-form.php:1329
+#: admin/views/common/bulletin-form.php:1332 admin/views/pages/settings.php:58
+#: admin/views/pages/settings.php:62
+msgid "No"
+msgstr "No"
+
+#: admin/views/common/bulletin-form.php:814
+msgid "Rotation style"
+msgstr "Estilo de rotación"
+
+#: admin/views/common/bulletin-form.php:827
+msgid "Cycle through"
+msgstr "Ciclar a través de"
+
+#: admin/views/common/bulletin-form.php:840
+msgid "Marquee style"
+msgstr "Estilo de marquesina"
+
+#: admin/views/common/bulletin-form.php:852
+msgid "Add button"
+msgstr "Agregar botón"
+
+#: admin/views/common/bulletin-form.php:869
+msgid "Button label"
+msgstr "Etiqueta de botón"
+
+#: admin/views/common/bulletin-form.php:880
+msgid "Button mobile label"
+msgstr "Etiqueta de botón para móviles"
+
+#: admin/views/common/bulletin-form.php:893
+msgid "Button Background color"
+msgstr "Color de Fondo del Botón"
+
+#: admin/views/common/bulletin-form.php:905
+msgid "Button Font color"
+msgstr "Color de fuente del botón"
+
+#: admin/views/common/bulletin-form.php:917
+msgid "Button action"
+msgstr "Acción del botón"
+
+#: admin/views/common/bulletin-form.php:929
+msgid "Link"
+msgstr "Enlace"
+
+#: admin/views/common/bulletin-form.php:943
+msgid "Custom JS Event"
+msgstr "Evento JS personalizado"
+
+#: admin/views/common/bulletin-form.php:952
+msgid "Button link"
+msgstr "Enlace del botón"
+
+#: admin/views/common/bulletin-form.php:966
+msgid "Button target"
+msgstr "Destino del botón"
+
+#: admin/views/common/bulletin-form.php:979
+msgid "Same tab"
+msgstr "Misma pestaña"
+
+#: admin/views/common/bulletin-form.php:991
+msgid "New tab"
+msgstr "Nueva pestaña"
+
+#: admin/views/common/bulletin-form.php:425
+#: admin/views/common/bulletin-form.php:1188
+msgid "Display Options"
+msgstr "Opciones de visualización"
+
+#: admin/views/common/bulletin-form.php:455
+#: classes/class-bulletinwp-bulletins-table.php:111
+msgid "Expiry"
+msgstr "Caducidad"
+
+#: admin/views/common/bulletin-form.php:418
+msgid "What you want to say"
+msgstr "Lo que quieres decir"
+
+#: admin/views/common/bulletin-form.php:428
+msgid "How you want it to display"
+msgstr "Cómo quieres que se muestre"
+
+#: admin/views/common/bulletin-form.php:438
+msgid "Customize your bulletin"
+msgstr "Personaliza tu boletín"
+
+#: admin/views/common/bulletin-form.php:448
+msgid "Where you want to show it"
+msgstr "Dónde quieres mostrarlo"
+
+#: admin/views/common/bulletin-form.php:458
+msgid "Set expiry and countdown"
+msgstr "Establecer caducidad y cuenta regresiva"
+
+#: admin/views/common/bulletin-form.php:468
+msgid "Add custom CSS & more"
+msgstr "Añadir CSS personalizado y más"
+
+#: admin/views/common/bulletin-form.php:799
+msgid "Cycle speed"
+msgstr "Velocidad de ciclo"
+
+#: admin/views/common/bulletin-form.php:800
+msgid "(in ms, leave blank for default cycle speed)"
+msgstr "(en ms, deja en blanco para la velocidad de ciclo predeterminada)"
+
+#: admin/views/common/bulletin-form.php:911
+msgid "Button Hover background color"
+msgstr "Color de fondo al pasar el ratón por encima del botón"
+
+#: admin/views/common/bulletin-form.php:925
+msgid "Button Hover font color"
+msgstr "Color de fuente al pasar el ratón por encima del botón"
+
+#: admin/views/common/bulletin-form.php:978
+msgid "Dismiss Bulletin"
+msgstr "Descartar Boletín"
+
+#: admin/views/common/bulletin-form.php:978
+msgid "Trigger Easy Popup"
+msgstr "Activar el Popup Fácil"
+
+#: admin/views/common/bulletin-form.php:1420
+msgid "Design"
+msgstr "Diseño"
+
+#: admin/views/common/bulletin-form.php:1105
+msgid "Button alignment"
+msgstr "Alineación del botón"
+
+#: admin/views/common/bulletin-form.php:1116
+msgid "Align right"
+msgstr "Alinear a la derecha"
+
+#: admin/views/common/bulletin-form.php:1129
+msgid "Aligned with content"
+msgstr "Alineado con el contenido"
+
+#: admin/views/common/bulletin-form.php:1197
+msgid "Header banner display"
+msgstr "Visualización del banner de cabecera"
+
+#: admin/views/common/bulletin-form.php:1211
+msgid "Above header"
+msgstr "Encima de la cabecera"
+
+#: admin/views/common/bulletin-form.php:1224
+msgid "Below header"
+msgstr "Debajo de la cabecera"
+
+#: admin/views/common/bulletin-form.php:1498
+msgid "Text Vertical Padding"
+msgstr "Relleno Vertical del Texto"
+
+#: admin/views/common/bulletin-form.php:1499
+msgid "(in px, leave blank for default vertical padding)"
+msgstr "(en píxeles, dejar en blanco para el relleno vertical predeterminado)"
+
+#: admin/views/common/bulletin-form.php:1630
+msgid "Add image"
+msgstr "Agregar imagen"
+
+#: admin/views/common/bulletin-form.php:1656
+msgid "Upload image"
+msgstr "Subir imagen"
+
+#: admin/views/common/bulletin-form.php:1679
+msgid "Image alignment"
+msgstr "Alineación de la imagen"
+
+#: admin/views/common/bulletin-form.php:1717
+msgid "Max width"
+msgstr "Ancho máximo"
+
+#: admin/views/common/bulletin-form.php:1718
+msgid "(in px, leave blank for max-width of 225px)"
+msgstr "(en píxeles, dejar en blanco para un ancho máximo de 225 píxeles)"
+
+#: admin/views/common/bulletin-form.php:811
+msgid "Marquee speed"
+msgstr "Velocidad del marquesina"
+
+#: admin/views/common/bulletin-form.php:812
+msgid "(in ms, leave blank for default marquee speed)"
+msgstr "(en milisegundos, dejar en blanco para la velocidad predeterminada de la marquesina)"
+
+#: admin/views/common/bulletin-form.php:1081
+#: admin/views/common/bulletin-form.php:1088
+msgid "Select easy popup"
+msgstr "Seleccionar fácilmente el popup"
+
+#: admin/views/common/bulletin-form.php:191
+msgid "Cookie black"
+msgstr "Cookie negro"
+
+#: admin/views/common/bulletin-form.php:2012
+msgid "Expire bulletin"
+msgstr "Expirar el boletín"
+
+#: admin/views/common/bulletin-form.php:2036
+msgid "Expiry date/time"
+msgstr "Fecha/hora de caducidad"
+
+#: admin/views/common/bulletin-form.php:2038
+msgid "Note: Bulletin will not show after this time and will be set to inactive"
+msgstr "Nota: El boletín no se mostrará después de esta hora y se establecerá como inactivo"
+
+#: admin/views/common/bulletin-form.php:2105
+msgid "Override labels"
+msgstr "Anular etiquetas"
+
+#: admin/views/common/bulletin-form.php:2111
+msgid "Days label"
+msgstr "Etiqueta de días"
+
+#: admin/views/common/bulletin-form.php:2122
+msgid "Hours label"
+msgstr "Etiqueta de horas"
+
+#: admin/views/common/bulletin-form.php:2133
+msgid "Minutes label"
+msgstr "Etiqueta de minutos"
+
+#: admin/views/common/bulletin-form.php:2144
+msgid "Seconds label"
+msgstr "Etiqueta de segundos"
+
+#: admin/views/common/bulletin-form.php:
+msgid "Choose bulletin type"
+msgstr "Elegir tipo de boletín"
+
+#: admin/views/common/bulletin-form.php:2268
+msgid "Schedule"
+msgstr "Programar"
+
+#: admin/views/common/bulletin-form.php:2281
+msgid "Publish from"
+msgstr "Publicar desde"
+
+#: admin/views/common/bulletin-form.php:261
+msgid "Publish Bulletin"
+msgstr "Publicar Boletín"
+
+#: classes/class-bulletinwp-admin.php:83
+msgid "This field is required"
+msgstr "Este campo es obligatorio"
+
+#: classes/class-bulletinwp-admin.php:84
+msgid "Validation failed"
+msgstr "Validación fallida"
+
+#: classes/class-bulletinwp-admin.php:78
+msgid "Please check required fields"
+msgstr "Por favor, verifica los campos obligatorios"
+
+#: classes/class-bulletinwp-admin.php:74
+msgid "Empty csv file"
+msgstr "Archivo CSV vacío"
+
+#: classes/class-bulletinwp-admin.php:75
+msgid "File is required"
+msgstr "El archivo es obligatorio"
+
+#: classes/class-bulletinwp-admin.php:76
+msgid "File is invalid"
+msgstr "El archivo no es válido"
+
+#: classes/class-bulletinwp-admin.php:86
+msgid "View now"
+msgstr "Ver ahora"
+
+#: admin/views/common/bulletin-form.php:262
+msgid "Publishing"
+msgstr "Publicando"
+
+#: admin/views/common/bulletin-form.php:260
+msgid "publish"
+msgstr "publicar"
+
+#: admin/views/common/right-panel.php:14
+msgid "Suggest a feature for our future development"
+msgstr "Sugiere una característica para nuestro desarrollo futuro"
+
+#: classes/class-bulletinwp-ajax.php:506
+msgid "Bulletin saved"
+msgstr "Boletín guardado"
+
+#: classes/class-bulletinwp-bulletins-table.php:103
+msgid "Include on"
+msgstr "Incluir en"
+
+#: classes/class-bulletinwp-bulletins-table.php:104
+msgid "Exclude on"
+msgstr "Excluir en"
+
+#: classes/class-bulletinwp-bulletins-table.php:105
+msgid "User rules"
+msgstr "Reglas de usuario"
+
+#: classes/class-bulletinwp-bulletins-table.php:108
+msgid "Status"
+msgstr "Estado"
+
+#: admin/views/pages/settings.php:62
+msgid "Header configuration"
+msgstr "Configuración del encabezado"
+
+#: admin/views/pages/settings.php:64
+msgid "If you want to use the header bulletin under your navbar, or if you have a fixed header, you should define the css class below."
+msgstr "Si deseas utilizar el boletín de encabezado debajo de tu barra de navegación, o si tienes un encabezado fijo, debes definir la clase CSS a continuación."
+
+#: admin/views/pages/settings.php:65
+msgid "For further instruction, please check out"
+msgstr "Para obtener más instrucciones, consulta"
+
+#: admin/views/pages/settings.php:66
+msgid "this video for placing a bulletin"
+msgstr "este video para colocar un boletín"
+
+#: admin/views/pages/settings.php:67
+msgid "under your header"
+msgstr "debajo de tu encabezado"
+
+#: admin/views/pages/settings.php:68
+msgid "or"
+msgstr "o"
+
+#: admin/views/pages/settings.php:69
+msgid "this video if you have a"
+msgstr "este video si tienes un"
+
+#: admin/views/pages/settings.php:70
+msgid "fixed header"
+msgstr "encabezado fijo"
+
+#: admin/views/pages/settings.php:67
+msgid "Header CSS selector"
+msgstr "Selector CSS de encabezado"
+
+#: admin/views/pages/settings.php:95
+msgid "Access control"
+msgstr "Control de acceso"
+
+#: admin/views/pages/settings.php:98
+msgid "Only allow the following users or roles to manage bulletins. By default only administrators have access."
+msgstr "Permitir únicamente a los siguientes usuarios o roles gestionar los boletines. Por defecto, solo los administradores tienen acceso."
+
+#: admin/views/pages/settings.php:137
+msgid "Export"
+msgstr "Exportar"
+
+#: admin/views/pages/settings.php:143
+msgid "Exporting..."
+msgstr "Exportando..."
+
+#: admin/views/pages/settings.php:151
+msgid "Import"
+msgstr "Importar"
+
+#: admin/views/pages/settings.php:160
+msgid "Importing..."
+msgstr "Importando..."
+
+#: classes/class-bulletinwp-ajax.php:670
+msgid "Exporting data complete"
+msgstr "Exportación de datos completa"
+
+#: classes/class-bulletinwp-ajax.php:696
+msgid "Importing data complete"
+msgstr "Importación de datos completa"
+
+#: admin/views/common/bulletin-form.php:1001
+msgid "Button JS Event"
+msgstr "Evento JS del botón"
+
+#: admin/views/common/bulletin-form.php:1015
+msgid "Add countdown"
+msgstr "Agregar cuenta atrás"
+
+#: admin/views/common/bulletin-form.php:1030
+msgid "Countdown"
+msgstr "Cuenta atrás"
+
+#: admin/views/common/bulletin-form.php:1047
+msgid "Countdown Background color"
+msgstr "Color de fondo de la cuenta atrás"
+
+#: admin/views/common/bulletin-form.php:1059
+msgid "Countdown Font color"
+msgstr "Color de fuente de la cuenta atrás"
+
+#: admin/views/common/bulletin-form.php:1076
+msgid "On expiry"
+msgstr "Al expirar"
+
+#: admin/views/common/bulletin-form.php:1088
+msgid "Keep bulletin active"
+msgstr "Mantener el boletín activo"
+
+#: admin/views/common/bulletin-form.php:1101
+msgid "Set bulletin to inactive"
+msgstr "Establecer el boletín como inactivo"
+
+#: admin/views/common/bulletin-form.php:1115
+msgid "By content"
+msgstr "Por contenido"
+
+#: admin/views/common/bulletin-form.php:1127
+msgid "Show everywhere"
+msgstr "Mostrar en todas partes"
+
+#: admin/views/common/bulletin-form.php:1141
+msgid "Show only on certain content"
+msgstr "Mostrar solo en cierto contenido"
+
+#: admin/views/common/bulletin-form.php:1152
+#: admin/views/common/bulletin-form.php:1879
+msgid "Include"
+msgstr "Incluir"
+
+#: admin/views/common/bulletin-form.php:1879
+msgid ""
+"this bulletin on the following pages or posts (one per line, leave empty to "
+"include everywhere)"
+msgstr ""
+"Este boletín en las siguientes páginas o publicaciones (una por línea, dejar vacío para incluir en todas partes)"
+
+#: admin/views/common/bulletin-form.php:1165
+#: admin/views/common/bulletin-form.php:1189
+msgid "The domain part of the URL will be stripped automatically."
+msgstr "La parte del dominio de la URL se eliminará automáticamente."
+
+#: admin/views/common/bulletin-form.php:1167
+#: admin/views/common/bulletin-form.php:1191
+msgid "Use (.*) wildcards to address multiple URLs under a given path."
+msgstr ""
+"Use comodines (.*) para dirigirse a varias URL bajo un determinado camino."
+
+#: admin/views/common/bulletin-form.php:1176
+msgid "Exclude"
+msgstr "Excluir"
+
+#: admin/views/common/bulletin-form.php:1176
+msgid ""
+"this bulletin on the following pages or posts (one per line, leave empty to "
+"exclude nowhere)"
+msgstr ""
+"Este boletín en las siguientes páginas o publicaciones (una por línea, dejar vacío para excluir en ninguna parte)"
+
+#: admin/views/common/bulletin-form.php:1199
+msgid "By user"
+msgstr "Por usuario"
+
+#: admin/views/common/bulletin-form.php:1211
+msgid "Show for everyone"
+msgstr "Mostrar para todos"
+
+#: admin/views/common/bulletin-form.php:1224
+msgid "Only logged-in users"
+msgstr "Solo usuarios registrados"
+
+#: admin/views/common/bulletin-form.php:1238
+msgid "Based on cookie value"
+msgstr "Basado en el valor de la cookie"
+
+#: admin/views/common/bulletin-form.php:1248
+msgid "User cookie value"
+msgstr "Valor de la cookie del usuario"
+
+#: admin/views/common/bulletin-form.php:1991
+msgid ""
+"Enter the key of the cookie. If this is set on the browser, the bulletin "
+"will show."
+msgstr ""
+"Ingrese la clave de la cookie. Si esto está establecido en el navegador, se mostrará el boletín."
+
+#: admin/views/common/bulletin-form.php:1271
+msgid "Allow user to dismiss bulletin?"
+msgstr "¿Permitir que el usuario descarte el boletín?"
+
+#: admin/views/common/bulletin-form.php:1286
+#: admin/views/common/bulletin-form.php:1066
+msgid "Cookie expiry (in hours). Use -1 to dismiss forever"
+msgstr "Caducidad de la cookie (en horas). Utilice -1 para descartar para siempre."
+
+#: admin/views/common/bulletin-form.php:1300
+msgid "Additional CSS to render with this bulletin"
+msgstr "CSS adicional para renderizar con este boletín"
+
+#: admin/views/common/bulletin-form.php:1325
+msgid "Apply to all subsites"
+msgstr "Aplicar a todos los subsitios"
+
+#: admin/views/common/bulletin-form.php:1351
+msgid "View"
+msgstr "Ver"
+
+#: admin/views/common/bulletin-form.php:1351
+msgid "Preview"
+msgstr "Vista previa"
+
+#: admin/views/common/bulletin-form.php:1358
+#: admin/views/common/bulletin-form.php:1362
+msgid "Active"
+msgstr "Activo"
+
+#: admin/views/common/bulletin-form.php:1359
+#: admin/views/common/bulletin-form.php:1362
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: admin/views/common/bulletin-form.php:1369
+#: admin/views/common/bulletin-form.php:1372
+msgid "Save Bulletin"
+msgstr "Guardar Boletín"
+
+#: admin/views/common/bulletin-form.php:1370 admin/views/pages/settings.php:92
+msgid "Saving..."
+msgstr "Guardando…"
+
+#: admin/views/common/right-panel.php:6
+msgid "View plugin docs & FAQs"
+msgstr "Ver documentos y preguntas frecuentes del plugin"
+
+#: admin/views/common/right-panel.php:11
+msgid "Suggest a feature and see our development roadmap"
+msgstr "Sugerir una característica y ver nuestro plan de desarrollo"
+
+#: admin/views/common/right-panel.php:16
+msgid "Like this plugin? Please give us a 5 star review!"
+msgstr "¿Te gusta este plugin? ¡Por favor, danos una reseña de 5 estrellas!"
+
+#: admin/views/common/right-panel.php:28
+msgid "Explore more from Bulletin"
+msgstr "Explora más sobre Bulletin"
+
+#: admin/views/common/upgrade-panel.php:3
+msgid "Upgrade to PRO"
+msgstr "Actualiza a PRO"
+
+#: admin/views/common/upgrade-panel.php:6
+msgid "Upgrade to get instant access to the following features"
+msgstr "Actualiza para obtener acceso instantáneo a las siguientes características"
+
+#: admin/views/common/upgrade-panel.php:11
+msgid "Eye-popping icons"
+msgstr "Iconos llamativos"
+
+#: admin/views/common/upgrade-panel.php:15
+msgid "Custom button & Actions"
+msgstr "Botón personalizado y acciones"
+
+#: admin/views/common/upgrade-panel.php:19
+msgid "Custom Google fonts"
+msgstr "Fuentes de Google personalizadas"
+
+#: admin/views/common/upgrade-panel.php:23
+msgid "Show bulletin by section"
+msgstr "Mostrar boletín por sección"
+
+#: admin/views/common/upgrade-panel.php:27
+msgid "Show bulletin by logged-user"
+msgstr "Mostrar boletín por usuario registrado"
+
+#: admin/views/common/upgrade-panel.php:33
+msgid "Add rotating messages"
+msgstr "Agregar mensajes rotativos"
+
+#: admin/views/common/upgrade-panel.php:37
+msgid "Allow to dismiss and set expiry"
+msgstr "Permitir descartar y establecer caducidad"
+
+#: admin/views/common/upgrade-panel.php:41
+msgid "Add a countdown clock"
+msgstr "Agregar un reloj de cuenta regresiva"
+
+#: admin/views/common/upgrade-panel.php:45
+msgid "Add advanced CSS to bulletins"
+msgstr "Agregar CSS avanzado a los boletines"
+
+#: admin/views/common/upgrade-panel.php:49
+msgid "Wordpress Network support"
+msgstr "Soporte para red de WordPress"
+
+#: admin/views/common/upgrade-panel.php:55 admin/views/pages/welcome.php:94
+msgid "from"
+msgstr "desde"
+
+#: admin/views/common/upgrade-panel.php:56 admin/views/pages/welcome.php:97
+msgid "year"
+msgstr "año"
+
+#: admin/views/common/upgrade-panel.php:63
+msgid "See all pricing options"
+msgstr "Ver todas las opciones de precios"
+
+#: admin/views/common/upgrade-panel.php:68 admin/views/pages/welcome.php:106
+msgid "Learn more"
+msgstr "Saber más"
+
+#: admin/views/pages/add-new.php:10
+msgid "Add new bulletin"
+msgstr "Agregar nuevo boletín"
+
+#: admin/views/pages/bulletins.php:10
+msgid "Bulletins"
+msgstr "Boletines"
+
+#: admin/views/pages/bulletins.php:15
+msgid "Add New"
+msgstr "Añadir nuevo"
+
+#: admin/views/pages/edit.php:151
+msgid "Edit bulletin"
+msgstr "Editar boletín"
+
+#: admin/views/pages/settings.php:11
+msgid "Settings"
+msgstr "Ajustes"
+
+#: admin/views/pages/settings.php:21
+msgid "Default color settings"
+msgstr "Configuraciones de color predeterminadas"
+
+#: admin/views/pages/settings.php:22
+msgid ""
+"Setting these will apply as the default colors to all bulletins you publish"
+msgstr ""
+"Establecer estos aplicará los colores predeterminados a todos los boletines que publiques"
+
+#: admin/views/pages/settings.php:51
+msgid "Fixed header (beta)"
+msgstr "Encabezado fijo (beta)"
+
+#: admin/views/pages/settings.php:54
+msgid "My site has a fixed header"
+msgstr "Mi sitio tiene un encabezado fijo"
+
+#: admin/views/pages/settings.php:70
+msgid "Header selector"
+msgstr "Selector de encabezado"
+
+#: admin/views/pages/settings.php:91 admin/views/pages/settings.php:94
+msgid "Save"
+msgstr "Guardar"
+
+#: admin/views/pages/welcome.php:27
+msgid "Well, hello there!"
+msgstr "¡Buenas, hola!"
+
+#: admin/views/pages/welcome.php:31
+msgid ""
+"Congrats on activating Bulletin. You&apos;re moments away from adding "
+"incredibly easy (and powerful) announcement banners to your site!"
+msgstr ""
+"¡Enhorabuena por activar Bulletin! Estás a momentos de añadir "
+"anuncios increíblemente fáciles (y potentes) a tu sitio."
+
+#: admin/views/pages/welcome.php:35
+msgid "Add my first bulletin"
+msgstr "Añadir mi primer anuncio"
+
+#: admin/views/pages/welcome.php:43
+msgid "Upgrade to Pro"
+msgstr "Actualizar a Pro"
+
+#: admin/views/pages/welcome.php:51
+msgid "Call to actions"
+msgstr "Llamadas a la acción"
+
+#: admin/views/pages/welcome.php:52
+msgid "Add buttons that link to external pages or trigger custom code."
+msgstr "Añade botones que enlacen a páginas externas o activen código personalizado."
+
+#: admin/views/pages/welcome.php:58
+msgid "Add a countdown"
+msgstr "Añadir una cuenta atrás"
+
+#: admin/views/pages/welcome.php:59
+msgid ""
+"Counting down to something or trying to install a bit of FOMO? We got you "
+"covered."
+msgstr ""
+"¿Quieres contar hacia algo o generar un poco de FOMO? Te cubrimos."
+
+#: admin/views/pages/welcome.php:65
+msgid "Custom icons and fonts"
+msgstr "Iconos y fuentes personalizadas"
+
+#: admin/views/pages/welcome.php:66
+msgid "Make it your own using cool icons and stylish google fonts."
+msgstr "Hazlo único utilizando iconos llamativos y elegantes fuentes de Google."
+
+#: admin/views/pages/welcome.php:72
+msgid "Add multiple messages in one"
+msgstr "Añadir varios mensajes en uno"
+
+#: admin/views/pages/welcome.php:73
+msgid "Rotate through or let them run in marquee style."
+msgstr "Haz que se roten o que se ejecuten en estilo de marquesina."
+
+#: admin/views/pages/welcome.php:79
+msgid "Advanced placement options"
+msgstr "Opciones de ubicación avanzadas"
+
+#: admin/views/pages/welcome.php:80
+msgid ""
+"Show a bulletin only on selected pages on your site. Or only for logged-in "
+"users."
+msgstr ""
+"Muestra un anuncio solo en páginas seleccionadas de tu sitio. O solo para "
+"usuarios registrados."
+
+#: admin/views/pages/welcome.php:86
+msgid "WordPress Network support"
+msgstr "Soporte para redes de WordPress"
+
+#: admin/views/pages/welcome.php:87
+msgid "Run bulletins on all your subsites."
+msgstr "Ejecuta anuncios en todas tus subsitios."
+
+#: admin/views/pages/welcome.php:102
+msgid "Buy now"
+msgstr "Comprar ahora"
+
+#: frontend/views/partials/edit-link.php:25
+msgid "edit"
+msgstr "editar"
